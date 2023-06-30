@@ -1,0 +1,16 @@
+.custom-data-grid-row div {
+    flex: 1;
+    padding: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .custom-data-grid-row div:nth-child(2n) {
+    background-color: #ecf2f5;;
+  }
+  
+  .custom-data-grid-row div:nth-child(2n+1) {
+    background-color: #1d1e1f;
+    color: white;
+  }

@@ -1,0 +1,36 @@
+.custom-data-grid-container {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .custom-data-grid-row {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  .custom-data-grid-row.dragging {
+    background-color: #d3d3d3;
+  }
+  
+  .custom-data-grid-row div {
+    flex: 1;
+    padding: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .custom-data-grid-row div:nth-child(2n) {
+    background-color: #ecf2f5;;
+  }
+  
+  .custom-data-grid-row div:nth-child(2n+1) {
+    background-color: #181818;
+    color: white;
+  }
+ 
+  body{
+      background-color: #0dadec;
+    }
